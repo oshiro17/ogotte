@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744276050262",
+    "project_id": "ogoru-8e6e2",
+    "storage_bucket": "ogoru-8e6e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744276050262:android:78e4269e8deca1d88656f7",
+        "android_client_info": {
+          "package_name": "com.example.ogore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz-viy0NzIxc8KU3MyrXPHg_e_LlRqEIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
