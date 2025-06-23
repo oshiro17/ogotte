@@ -170,8 +170,10 @@ class _PostCreatePageState extends State<PostCreatePage> {
                 TextFormField(
                   controller: titleController,
                   decoration: const InputDecoration(
-                    labelText: '募集タイトル',
-                    hintText: '例）焼肉奢るので、女子会しましょう',
+                    labelText: 'タイトル',
+                    hintText: '焼肉奢るので、女子会しましょう',
+                    prefixIcon: Icon(Icons.title),
+                    border: OutlineInputBorder(),
                   ),
                   validator:
                       (v) => (v == null || v.isEmpty) ? '募集タイトルは必須です' : null,
@@ -299,16 +301,17 @@ class _PostCreatePageState extends State<PostCreatePage> {
                     ),
                   ],
                 ),
-
+                SizedBox(height: 16),
                 // 条件・詳細（任意）
                 TextField(
                   controller: conditionController,
-                  decoration: const InputDecoration(labelText: '条件（任意）'),
+                  decoration: const InputDecoration(labelText: '参加条件'),
                 ),
+                SizedBox(height: 16),
                 TextField(
                   controller: descriptionController,
                   maxLines: 4,
-                  decoration: const InputDecoration(labelText: '詳細説明（任意）'),
+                  decoration: const InputDecoration(labelText: '詳細説明'),
                 ),
                 const SizedBox(height: 24),
 

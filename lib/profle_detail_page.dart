@@ -94,8 +94,8 @@ class ProfileDetailPage extends StatelessWidget {
               child: Text(
                 url,
                 style: const TextStyle(
-                  fontSize: 16,
-                  color: Colors.blue,
+                  fontSize: 12,
+                  // color: Colors.blue,
                   decoration: TextDecoration.underline,
                 ),
               ),
